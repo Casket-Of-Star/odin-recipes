@@ -1,0 +1,54 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 20px auto;
+    background-color: rgb(255, 51, 0, 50%);
+    border: 5px dotted red;
+    width: 600px;
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 2px;
+    background-color: red;
+    margin: 30px 5em;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.recipes {
+    border: 2px solid red;
+    width: 300px;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.recipe-content {
+    padding: 10px;
+    /* margin: 10px 30px; */
+}
+
+.home {
+    display: block;
+    font-size: 20px;
+    background-color: rgba(0, 255, 242, 0.5);
+    text-align: center;
+    margin: 1em 15em;
+}
